@@ -114,9 +114,23 @@ export const personalInfo: PersonalInfo = {
 
 export const experiences: Experience[] = [
   {
+    company: "DevSignal",
+    role: "Senior Mobile Engineer",
+    period: "Oct 2025 — Present",
+    description:
+      "Built and shipped core features for Lock In, a habit, task, goal, workout, journal, and community app built around an XP → OVR gamified rank ladder.",
+    highlights: [
+      "Designed the Attributes System — a four-attribute progression layer covering Strength, Clarity, Discipline, and Confidence, with dedicated XP/OVR progression, multi-attribute habits, a live detail modal, and onboarding tag-to-attribute seeding",
+      "Built the Seasons competitive cycle — a server-driven ladder with idempotent atomic archive/reset logic, season history, earned titles on profiles, a season leaderboard picker, and opt-in auto-cron rollover, all controlled behind a PostHog feature flag",
+      "Delivered the social and profile layer, including friends, search, requests, privacy-gated profiles, bodygraph, habit grids, and the community forum with posts, comments, votes, moderation, in-app notifications, and leaderboards",
+      "Shipped a native Screen Time integration using Apple FamilyControls and DeviceActivity extensions, including focus timers, shielding rules, and an iOS widget target",
+      "Engineered the local notification engine and the Superwall + web-subscription paywall stack, including a personalized A/B variant and restore-purchases flow",
+    ],
+  },
+  {
     company: "Grupo FCamara",
     role: "Senior Mobile Engineer",
-    period: "Aug 2024 — Present",
+    period: "Aug 2024 — Oct 2025",
     description:
       "Leading end-to-end mobile development for enterprise projects with a focus on scalability and performance.",
     highlights: [
