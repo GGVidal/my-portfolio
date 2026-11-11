@@ -257,6 +257,18 @@ export const experiences: Experience[] = [
 // Example: { label: "App Store", url: "https://apps.apple.com/...", type: "app-store" }
 export const projects: Project[] = [
   {
+    title: "OpenIDEA — Open Source IDE",
+    description:
+      "Active open-source contributor to OpenIDEA (8.5k+ stars), a native IntelliJ-style IDE rebuilt in Rust with a TypeScript/Tauri UI. Merged work includes Color Scheme › Console Colors for terminal ANSI theming, and SQL Server multi-database browsing in the Database tool window. Ongoing: Remote Host Download to… coverage and related IDE UX fixes.",
+    tech: ["Rust", "TypeScript", "Tauri", "LSP", "Git"],
+    links: [
+      { label: "GitHub", url: "https://github.com/l0ng-ai/openidea", type: "github" },
+      { label: "Website", url: "https://openidea.sh", type: "website" },
+    ],
+    images: ["/projects/openidea.jpg"],
+    featured: true,
+  },
+  {
     title: "Vocai — Audio AI Assistant",
     description:
       "An AI-powered voice assistant that turns audio recordings into structured outputs — transcripts, summaries, flashcards, to-do lists, and email drafts. Currently in beta testing. Built both the NestJS backend (OpenAI Whisper + GPT-4o) and the React Native mobile app from scratch. Supports 16+ languages and multiple modes (Standard, Teacher, List).",
@@ -271,6 +283,7 @@ export const projects: Project[] = [
       "A curated art marketplace connecting collectors and artists. Currently in beta testing. I built both the API and the mobile app from the ground up — featuring artwork discovery, artist profiles, Stripe checkout (cards, Apple Pay, Google Pay), and a full artist listing flow with image uploads.",
     tech: ["React Native", "Expo", "TypeScript", "Supabase", "Stripe", "Zustand"],
     links: [
+      { label: "App Store", url: "https://apps.apple.com/br/app/art-drop-original-art/id6758961788", type: "app-store" },
       { label: "GitHub", url: "https://github.com/forgenewco/artbeast-mobile-app", type: "github" },
     ],
     images: ["/projects/artbeast.png"],
